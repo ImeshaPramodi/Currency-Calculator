@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  <div class="container">
+    <div class="input-group">
+      <label for="from">Amount</label>
+      <input type="number" id="from" placeholder="Enter Amount">
+    </div>
+    <div class="input-group">
+      <label for="fromCurrency">From</label>
+      <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="INR">INR</option>
+        <option value="LKR">LKR</option>
+        <option value="CHF">CHF</option>
+        <option value="AUD">AUD</option>
+        <option value="NZD">NZD</option>
+        <option value="CNY">CNY</option>
+        <option value="RUB">RUB</option>
+        <option value="BRL">BRL</option>
+        <option value="ZAR">ZAR</option>
+        <option value="MXN">MXN</option>
+        <option value="HKD">HKD</option>
+        <option value="NOK">NOK</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="toCurrency">To</label>
+      <select id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="INR">INR</option>
+        <option value="LKR">LKR</option>
+        <option value="CHF">CHF</option>
+        <option value="AUD">AUD</option>
+        <option value="NZD">NZD</option>
+        <option value="CNY">CNY</option>
+        <option value="RUB">RUB</option>
+        <option value="BRL">BRL</option>
+        <option value="ZAR">ZAR</option>
+        <option value="MXN">MXN</option>
+        <option value="HKD">HKD</option>
+        <option value="NOK">NOK</option>
+      </select>
+    </div>
+    <button class="btn" onclick="convert()">CONVERT</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
